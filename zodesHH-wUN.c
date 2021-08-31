@@ -1571,7 +1571,7 @@ def main():
 
 
 try:
-	users = ["Reaper", "Guest", "zode", "mort", "walker"]
+	users = ["Reaper", "Guest", "zode", "RGC", "walker"]
 	clear = "clear"
 	os.system (clear)
 	username = getpass.getpass ("[+] Username: ")
@@ -1583,7 +1583,7 @@ try:
 except KeyboardInterrupt:
 	exit()
 try:
-	passwords = ["Reaper", "Guest", "zode", "mort", "walker"]
+	passwords = ["Reaper", "Guest", "zode", "ADMIN", "walker"]
 	password = getpass.getpass ("[+] Password: ")
 	if user == "Reaper":
 		if password == passwords[0]:
@@ -1615,7 +1615,7 @@ try:
 			except KeyboardInterrupt:
 				print ("\n[\033[91mzode\033[00m] Ctrl-C Has Been Pressed.\n")
 				main()
-	elif user == "mort":
+	elif user == "RGC":
 			print ("[+] Login Correct.")
 			print ("[+] Please wait.")
 			cookie.write("DIE")
